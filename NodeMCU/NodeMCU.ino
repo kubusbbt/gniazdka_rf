@@ -23,7 +23,7 @@ void setup()
   Blynk.begin(auth, ssid, pass);
 
   // Numer pinu do wysyłki danych RC
-  mySwitch.enableTransmit(D0);
+  mySwitch.enableTransmit(D1);
   
   mySwitch.setPulseLength(206);
 }
