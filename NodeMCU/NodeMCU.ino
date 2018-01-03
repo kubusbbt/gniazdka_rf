@@ -3,6 +3,7 @@
 
 /**** Biblioteki Blynk *****/
 #include <ESP8266WiFi.h>
+#include <ESP8266HTTPClient.h>
 #include <BlynkSimpleEsp8266.h>
 
 
@@ -33,4 +34,3 @@ void loop()
 {
   Blynk.run();
 }
-
